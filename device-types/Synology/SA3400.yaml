@@ -25,8 +25,8 @@ interfaces:
     type: 10gbase-t
   - name: Ethernet 6
     type: 10gbase-t
-  - name: Expansion 1
-    type: sas
+  - name: Expansion
+    type: other
 console-ports:
   - name: Console
     type: de-9

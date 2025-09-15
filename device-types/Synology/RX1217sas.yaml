@@ -15,6 +15,6 @@ power-ports:
     type: iec-60320-c14
 interfaces:
   - name: SAS IN
-    type: sas
+    type: other
   - name: SAS OUT
-    type: sas
+    type: other
