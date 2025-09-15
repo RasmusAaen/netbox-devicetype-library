@@ -1,0 +1,38 @@
+---
+manufacturer: Synology
+model: SA3400
+slug: synology-sa3400
+part_number: SA3400
+u_height: 2
+is_full_depth: true
+weight: 14.5
+weight_unit: kg
+power-ports:
+  - name: PSU 1
+    type: iec-60320-c14
+  - name: PSU 2
+    type: iec-60320-c14
+interfaces:
+  - name: Ethernet 1
+    type: 1000base-t
+  - name: Ethernet 2
+    type: 1000base-t
+  - name: Ethernet 3
+    type: 1000base-t
+  - name: Ethernet 4
+    type: 1000base-t
+  - name: Ethernet 5
+    type: 10gbase-t
+  - name: Ethernet 6
+    type: 10gbase-t
+  - name: Expansion 1
+    type: sas
+console-ports:
+  - name: Console
+    type: de-9
+    mgmt_only: true
+module-bays:
+  - name: PCIe Slot 1
+    position: '1'
+  - name: PCIe Slot 2
+    position: '2'
