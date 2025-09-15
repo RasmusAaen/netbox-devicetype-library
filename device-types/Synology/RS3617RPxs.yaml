@@ -19,7 +19,16 @@ interfaces:
     type: 1000base-t
   - name: Ethernet 4
     type: 1000base-t
+  - name: Expansion 1
+    type: infiniband-ndr
+  - name: Expansion 2
+    type: infiniband-ndr
 console-ports:
   - name: Console
     type: de-9
     mgmt_only: true
+module-bays:
+  - name: PCIe Slot 1
+    position: '1'
+  - name: PCIe Slot 2
+    position: '2'
